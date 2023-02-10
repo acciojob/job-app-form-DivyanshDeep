@@ -10,31 +10,31 @@
 	<!-- the entire body must be written by student -->
 	<form method="post" action="https://course.acciojob.com/">
 		<label for="name"> Name</label>
-		<input type="text" placeholder="Enter Name" id="name">
+		<input type="text" placeholder="Enter Name" id="name" required><br>
 		<label for="email"> Email</label>
-		<input type="email" placeholder="Enter email address" id="email">
-		
+		<input type="email" placeholder="Enter email address" id="email" required>
+		<br>
 		<label> Gender</label>
-		<label for="male"> Male</label>
-		<input type="radio" name=gender id="male">
-		<label for="female"> Female</label>
-		<input type="radio" name=gender id="female">
-		<label for="other"> Others</label>
-		<input type="radio" name=gender id="other">
+		<label>Male<input type="radio" name=gender value="Male" required></label>
+		
+		<label>Female<input type="radio" name=gender value="Female"></label>
+		
+		<label>Other<input type="radio" name=gender value="Other"></label>
+		<br>
 		<label for="laptop"> Laptop Brands</label>
 		<label for="Apple"> Apple</label>
 		<input type="radio" id="laptop" name=laptop>
 		<label for="Asus"> Asus</label>
 		<input type="radio" id="laptop" name=laptop>
 		<label for="HP"> HP</label>
-		<input type="radio" id="laptop" name=laptop>
+		<input type="radio" id="laptop" name=laptop><br>
 		<label for="age"> Age</label>
-		<input type="number" id="age" placeholder="Enter your age">
+		<input type="number" id="age" placeholder="Enter your age" required><br>
 		<label for="dob"> DOB</label>
-		<input type="date" id="dob">
+		<input type="date" id="dob" required><br>
 		<label for="password"> Password</label>
-		<input type="password" id="password" placeholder="Enter Password">
-		<button type="submit"> Submit</button>
+		<input type="password" id="password" required placeholder="Enter Password"><br>
+		<button type="submit"> Submit</button><br>
 		<label for="portfolio"> Paste Website URL</label>
 		<input type="url" id="portfolio" placeholder="Paste URL here">
 	</form>
